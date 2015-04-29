@@ -1,0 +1,15 @@
+# Trinity config file for goto: answer.
+
+[Device Information]
+
+device_name="goto: answer"
+connection_type="rest"
+commands=search
+
+[Command Execution]
+
+search=/rest/v1/ q:string 
+
+[Synonyms]
+
+gta=
