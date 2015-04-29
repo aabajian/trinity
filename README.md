@@ -71,12 +71,12 @@ Trinity can infer the option that should be modified based on the type and dimen
 
 
 ```Python
-trinity.set('lights', value=(0,122,255))
+trinity.set('lights', (0,122,255))
 ```
 
 Or, more explicitly:
 
-```Pythonwifi
+```Python
 trinity.set('lights', option='color', value=(0,122,255), units=('red,'green','blue'))
 ```
 
