@@ -8,7 +8,8 @@ Trinity is a Python-based abstraction layer for hardware APIs. It's specifically
 
 ```Python
 trinity.off('lights')
-trinity.off('thermostat')
+trinity.on('thermostat')
+trinity.on('drone')
 trinity.off('wall socket')
 ```
 
@@ -17,6 +18,7 @@ Device-specific functions are also abstracted:
 ```Python
 trinity.set('lights', 50)
 trinity.set('thermostat', 75)
+trinity.set('drone', 10)
 ```
 
 These are equivalent to:
@@ -24,6 +26,7 @@ These are equivalent to:
 ```Python
 trinity.set('lights', option='brightness', value=50, units='percent')
 trinity.set('thermostat', option='temperature', value=75, units='fahrenheit')
+trinity.set('drone', option='height', value=10, units='feet')
 ```
 
 The devices are registered beforehand:
