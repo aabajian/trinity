@@ -1,6 +1,6 @@
 # trinity
 
-**Trinity is BRAND NEW, no commits (yet).**
+**Trinity is BRAND NEW, no commits (yet). The name Trinity comes from [this scene](https://www.youtube.com/watch?v=6AOpomu9V6Q) in The Matrix.**
 
 ### Overview
 
